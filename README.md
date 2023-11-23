@@ -7,6 +7,45 @@
 - Basic page routing based on layout and components
 - css is local unless specified as global in layout, for example
 - typescript: strict
+- tailwind integration
+
+```bash
+victor@victorpc:jq-astro-course$ npx astro add tailwind
+victor@victorpc:jq-astro-course$ npx astro add tailwind
+✔ Resolving packages...
+
+  Astro will run the following command:
+  If you skip this step, you can always run it yourself later
+
+ ╭────────────────────────────────────────────────────╮
+ │ npm install @astrojs/tailwind tailwindcss@^3.0.24  │
+ ╰────────────────────────────────────────────────────╯
+
+✔ Continue? … yes
+✔ Installing dependencies...
+
+  Astro will generate a minimal ./tailwind.config.mjs file.
+
+✔ Continue? … yes
+
+  Astro will make the following changes to your config file:
+
+ ╭ astro.config.mjs ─────────────────────────────╮
+ │ import { defineConfig } from 'astro/config';  │
+ │                                               │
+ │ import tailwind from "@astrojs/tailwind";     │
+ │                                               │
+ │ // https://astro.build/config                 │
+ │ export default defineConfig({                 │
+ │   integrations: [tailwind()]                  │
+ │ });                                           │
+ ╰───────────────────────────────────────────────╯
+
+✔ Continue? … yes
+
+   success  Added the following integration to your project:
+  - @astrojs/tailwind
+```
 
 ## Working with Markdown and Content Collections
 
