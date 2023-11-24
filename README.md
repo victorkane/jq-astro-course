@@ -66,6 +66,9 @@ victor@victorpc:jq-astro-course$ npx astro add tailwind
       - [Front Matter CMS docs Generate content types from Astro Content Collection(s)](<https://frontmatter.codes/docs/getting-started#step-2.2-(optional):-generate-content-types-from-astro-content-collection(s)>)
     - [YT Coding in Public 2023-10-17 You may not ACTUALLY understand Content Collections…](https://youtu.be/Fcw4c3wzm7I?si=SDDxJ2t1MxV9F7n1) excellent video tut on Content Collections
     - [YT Coding in Public 2023-10-23 THE Astro App for Content Collections](https://youtu.be/byjO06X-LJw?si=kEQX5gGNxJgccc0L) shameless plug by same author for (non-open source, Mac based desktop app 😢 otherwise excellent astro collections CMS [Darkmatter](https://getdarkmatter.dev/))
+- Configuring Content Collections with Zod
+  - [Zod Documentation](https://zod.dev/)
+  - [Date Fns](https://date-fns.org/)
 
 ## Dynamic Routes and Pagination
 
