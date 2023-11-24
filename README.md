@@ -67,6 +67,7 @@ victor@victorpc:jq-astro-course$ npx astro add tailwind
     - [YT Coding in Public 2023-10-17 You may not ACTUALLY understand Content Collections…](https://youtu.be/Fcw4c3wzm7I?si=SDDxJ2t1MxV9F7n1) excellent video tut on Content Collections
     - [YT Coding in Public 2023-10-23 THE Astro App for Content Collections](https://youtu.be/byjO06X-LJw?si=kEQX5gGNxJgccc0L) shameless plug by same author for (non-open source, Mac based desktop app 😢 otherwise excellent astro collections CMS [Darkmatter](https://getdarkmatter.dev/))
 - Configuring Content Collections with Zod
+  - [commit: chore(posts content collection) configure with zod](https://github.com/victorkane/jq-astro-course/commit/b7ad008070ea0699ba142522a9e62aedf9888b2f)
   - [Zod Documentation](https://zod.dev/)
   - [Date Fns](https://date-fns.org/)
 
