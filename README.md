@@ -1,13 +1,13 @@
 # James Q Quick Astro 3 Course
 
--   [course repo](https://github.com/jamesqquick/astro-course-demo)
+- [course repo](https://github.com/jamesqquick/astro-course-demo)
 
 ## Intro to Astro and Project Setup
 
--   Basic page routing based on layout and components
--   css is local unless specified as global in layout, for example
--   typescript: strict
--   tailwind integration
+- Basic page routing based on layout and components
+- css is local unless specified as global in layout, for example
+- typescript: strict
+- tailwind integration
 
 ```bash
 victor@victorpc:jq-astro-course$ npx astro add tailwind
@@ -46,6 +46,10 @@ victor@victorpc:jq-astro-course$ npx astro add tailwind
    success  Added the following integration to your project:
   - @astrojs/tailwind
 ```
+
+- core scaffolding for layout, header and footer
+- complete section
+- [commit chore(core header and footer components): scaffold](https://github.com/victorkane/jq-astro-course/commit/4f5966afd46c2aeef071c6ededae39689e11895c)
 
 ## Working with Markdown and Content Collections
 
