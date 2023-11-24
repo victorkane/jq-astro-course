@@ -1,13 +1,13 @@
 # James Q Quick Astro 3 Course
 
-- [course repo](https://github.com/jamesqquick/astro-course-demo)
+-   [course repo](https://github.com/jamesqquick/astro-course-demo)
 
 ## Intro to Astro and Project Setup
 
-- Basic page routing based on layout and components
-- css is local unless specified as global in layout, for example
-- typescript: strict
-- tailwind integration
+-   Basic page routing based on layout and components
+-   css is local unless specified as global in layout, for example
+-   typescript: strict
+-   tailwind integration
 
 ```bash
 victor@victorpc:jq-astro-course$ npx astro add tailwind
