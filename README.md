@@ -53,6 +53,20 @@ victor@victorpc:jq-astro-course$ npx astro add tailwind
 
 ## Working with Markdown and Content Collections
 
+- Introduction to markdown and frontmatter
+  - [StackEdit (markdown playground)](https://stackedit.io/app#)
+  - [Markdown Documentation](https://www.markdownguide.org/getting-started/)
+- Introduction to Content Collections
+  - [Documentation](https://docs.astro.build/en/guides/content-collections/)
+  - [Sample Blog Posts](https://github.com/jamesqquick/astro-course-demo/tree/main/src/content/posts)
+    - different in ssg and main branches (first and second parts of course)
+  - [Sample Images](https://github.com/jamesqquick/astro-course-demo/tree/main/public/images)
+  - vk Coding in Public excellent astro content creator also!
+    - Also recommended by James Q Quick, **excellent Astro Collections aware VS Code based open source CMS** [Front Matter CMS](https://frontmatter.codes/)
+      - [Front Matter CMS docs Generate content types from Astro Content Collection(s)](<https://frontmatter.codes/docs/getting-started#step-2.2-(optional):-generate-content-types-from-astro-content-collection(s)>)
+    - [YT Coding in Public 2023-10-17 You may not ACTUALLY understand Content Collections…](https://youtu.be/Fcw4c3wzm7I?si=SDDxJ2t1MxV9F7n1) excellent video tut on Content Collections
+    - [YT Coding in Public 2023-10-23 THE Astro App for Content Collections](https://youtu.be/byjO06X-LJw?si=kEQX5gGNxJgccc0L) shameless plug by same author for (non-open source, Mac based desktop app 😢 otherwise excellent astro collections CMS [Darkmatter](https://getdarkmatter.dev/))
+
 ## Dynamic Routes and Pagination
 
 ## SEO and Meta Tags
