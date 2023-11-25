@@ -70,6 +70,8 @@ victor@victorpc:jq-astro-course$ npx astro add tailwind
   - [commit: chore(posts content collection) configure with zod](https://github.com/victorkane/jq-astro-course/commit/b7ad008070ea0699ba142522a9e62aedf9888b2f)
   - [Zod Documentation](https://zod.dev/)
   - [Date Fns](https://date-fns.org/)
+- Querying and Displaying List of Blog Posts
+  - [commit: chore(posts content collection): query and display list of blog posts on a blog page](https://github.com/victorkane/jq-astro-course/commit/01ea54856d05c98c60523d8f6f3618695edd7ceb)
 
 ## Dynamic Routes and Pagination
 
