@@ -1,9 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
+import PostList from "../components/PostList.astro";
 
+import type {CollectionEntry} from "astro:content"
+type Props = {
+    posts: CollectionEntry<"posts">[]
+}
 const allPosts = await getCollection("posts")
-console.log(allPosts)
 ---
 
 <Layout title="Blog - Astro Course">
@@ -12,6 +16,6 @@ console.log(allPosts)
 		<p class="text-zinc-900 text-2xl mb-24 max-sm:mb-14">
       Join the Community and learn from Music Producers and Enthusiasts
     </p>
-    {allPosts.map(post => <h2>{post.data.title}</h2>)}
+    <PostList posts="{allPosts}" />
   </main> 
 </Layout>
